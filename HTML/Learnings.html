@@ -1,0 +1,68 @@
+<head>
+    <title>Luca</title>
+
+    <style>
+        h1 {
+            color: rgb(157, 255, 0);
+            padding-bottom: 1px;
+            margin-bottom: 1px;
+            border: rgb(0, 255, 195) 5px solid;
+            border-radius: 10px;
+            box-shadow: inset 0 0 20px rgb(0, 255, 195),0 0 20px rgb(0, 255, 195);
+            padding: 20px;
+            max-width: 200px;
+            
+            
+        }
+        h2 {
+            margin-top: 1px;
+            color: aqua;
+        }
+
+        body {
+            color: white;
+            background: black
+        }
+        
+    </style>
+
+    <script>
+        //alert("hallo weld")
+
+        console.log("hallo weld")
+
+        window.onload = function () {
+        document.getElementById("button1").onclick = function () {
+            document.getElementById("hedder3").style.color = "red"
+        }
+        document.getElementById("button2").onclick = function () {
+            document.getElementById("hedder3").style.color = null
+        }
+        }
+
+
+
+
+    </script>
+</head>
+
+<body>
+
+<h1>Luca 1</h1>
+<h2>Luca 2</h2>
+<h3 id="hedder3">Luca 3</h3>
+<h4>Luca 4</h4>
+<p>Luca</p>
+<p>2</p>
+<img src="https://media.4-paws.org/a/6/5/7/a657fc68da4f7278ee87b17ba84b386e90de64e6/VIER%20PFOTEN_2020-10-07_00132-2890x2000-767x531.webp" alt=""
+ width="100"
+>
+<button id="button1"> ja</button>
+<button id="button2"> Nein</button>
+<button> Jain</button>
+
+
+
+
+
+</body>
