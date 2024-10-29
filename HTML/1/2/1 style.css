@@ -1,0 +1,38 @@
+body {
+    background-color: rgb( 27, 27, 27);
+    }
+h3 {
+    color: rgb( 0, 150, 150);
+    padding: 1px;
+    margin: 1px;
+    }
+h2 {
+    text-decoration: underline;
+    color: rgb( 0, 255, 255);
+            
+    }
+tabel {
+        background-color: bisque;
+        }
+A:Link {
+        text-decoration: underline;
+        font-weight: normal;
+        color: rgb(0, 255, 221);
+        font-size: 20px;
+        }
+A:visited {
+            text-decoration: underline;
+            font-weight: normal;
+            color: rgb(255, 105, 105);
+            font-weight: 20px;
+        }
+A:hover {
+        text-decoration: underline;
+        font-weight: normal;
+        background: rgb(0, 0, 255);
+        color: rgb(0, 0, 0)
+        }
+A:active {
+        text-decoration: underline;
+        font-weight: normal;
+        }
