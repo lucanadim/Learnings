@@ -2,7 +2,7 @@
 Console.WriteLine("Hello world");   //---> Hello world
 Console.WriteLine("Can be everything");  //---> Can be everything
 
-
+//-------------------------------------------------------------------------------------------
 
 //Variables and data types
 //Variables
@@ -26,7 +26,7 @@ bool is_adult = false;
 string name = "Luca";
 char character = 'L';
 
-
+//-------------------------------------------------------------------------------------------
 
 //Calculating in code
 int result = 15 + 2;
@@ -45,7 +45,7 @@ result2 += 10;
 
 Console.WriteLine(result2)
 
-
+//-------------------------------------------------------------------------------------------
 
 //methods
 void CountToThree()
@@ -81,7 +81,65 @@ void SeyHelloTo(string name)
  }
  Console.WriteLine(CalculateCircumference(5))
 
-
+//-------------------------------------------------------------------------------------------
 
  //input from the user
- 
+ string eingabe = Console.ReadLine();   //---> Press Enter
+
+ Console.WriteLine("-------");
+ Console.WriteLine("Hello my name is Luca");
+
+ double number6 = Convert.ToDouble(Console.ReadLine());
+ double number7 = Convert.ToDouble(Console.ReadLine());
+ double result = number6 + number7
+
+ Console.WriteLine(result);
+
+//-------------------------------------------------------------------------------------------
+
+ //If queries
+ int age = 13;
+
+ if (age >= 18)
+ {
+    Console.WriteLine("your old enough")
+ }
+ else if (age >= 16)
+ {
+    Console.WriteLine("your almost old enough")
+ }
+ else
+ {
+    Console.WriteLine("your not old enough")
+ }
+
+ // < (kleiner als)
+ // > (größer als)
+ // <= (kleiner gleich)
+ // >= (größer gleich)
+ // == (gleich)
+ // != (ungleich)
+ // || (oder)
+ // && (und)
+
+string password = "hello world";
+string eingabe;
+int age;
+
+Console.Write("Enter Password: ");
+eingabe = Console.ReadLine();
+Console.Write("Eneter your age: ");
+age = Console.ToInt32(Console.ReadLine());
+
+if (eingabe == password && age >=18)
+{
+    Console.WriteLine("Password is correct");
+}
+else
+{
+    Console.WriteLine("Password is incorrect");
+}
+
+//-------------------------------------------------------------------------------------------
+
+//switch blocks
