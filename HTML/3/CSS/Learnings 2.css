@@ -1,0 +1,22 @@
+h1 {
+    font-size: 1em;
+}
+
+.item {
+    background-color: cadetblue;
+    /* width: 25vw; */
+    margin: 10px;
+    height: 50px;
+    padding: 10px;
+}
+
+.wrapper {
+    display: flex;
+    height: 275px;
+    background-color: coral;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: stretch;
+    align-content: space-evenly;
+    gap: 20px 10px;
+}
