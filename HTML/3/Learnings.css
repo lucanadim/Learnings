@@ -1,3 +1,41 @@
+* {
+
+}
+
 body {
     background-color: beige;
+}
+
+h1 {
+    padding: 20px 10px;
+    border: 5px solid black;
+    margin: 0;
+}
+
+h2 {
+    border: 2px solid gray;
+}
+
+h1,h2 {
+    font-size: 20px;
+}
+
+.headline {
+    padding: 10px;
+}
+
+.headline:hover {
+    color: red;
+}
+
+section .headline {
+    margin: 0;
+}
+
+section > h2 {
+    font-size: 15px;
+}
+
+#title {
+    color: rgb(47, 189, 236);
 }
