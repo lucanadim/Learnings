@@ -1,5 +1,83 @@
+body {
+    background-color: #454545;
+}
+
+.container {
+    position: relative;
+    display: inline-block;
+}
+
 .Background {
-    width: 99vw;
-    height: 98vh;
-    margin: 5px;
+    width: 98vw;
+    height: 99vh;
+    margin: 0px;
+
+}
+
+.overlay-text1 {
+    position: absolute;
+    top: 3%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    color: black;
+    font-family: Roboto;
+    font-size: 60px;
+    background-color: white;
+    padding: 5px;
+    border-radius: 8px;
+    outline: 3px solid black;
+    box-shadow: 10px 10px 0px rgba(0, 0, 0, 1);
+}
+
+.Headline {
+    margin: 0px;
+}
+
+.overlay-text2 {
+    position: absolute;
+    top: 4%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    color: black;
+    font-family: Roboto;
+    font-size: 50px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 25px;
+    outline: 3px solid black;
+    box-shadow: 10px 10px 0px rgba(0, 0, 0, 1);
+    transition: transform 0.2s ease;
+}
+
+.overlay-text2:hover {
+    transform: scale(1.1);
+}
+
+.Link {
+    color: black;
+}
+
+.overlay-text3 {
+    position: absolute;
+    top: 4%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    color: black;
+    font-family: Roboto;
+    font-size: 50px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 25px;
+    outline: 3px solid black;
+    box-shadow: 10px 10px 0px rgba(0, 0, 0, 1);
+    transition: transform 0.2s ease;
+}
+
+.overlay-text3:hover {
+    transform: scale(1.1);
+}
+
+.Insta {
+    color: black;
+    margin: 0px;
 }
