@@ -35,9 +35,9 @@ body {
 
 .overlay-text2 {
     position: absolute;
-    top: 4%;
-    left: 60%;
-    transform: translate(-50%, -50%);
+    top: 1%;
+    left: 58%;
+    transform: translate(-50%, -50%) scale(1);
     color: black;
     font-family: Roboto;
     font-size: 50px;
@@ -46,7 +46,8 @@ body {
     border-radius: 25px;
     outline: 3px solid black;
     box-shadow: 10px 10px 0px rgba(0, 0, 0, 1);
-    transition: transform 0.2s ease;
+    transition: transform 0.3s ease;
+    transform: translateZ(0);
 }
 
 .overlay-text2:hover {
@@ -59,9 +60,9 @@ body {
 
 .overlay-text3 {
     position: absolute;
-    top: 4%;
-    left: 70%;
-    transform: translate(-50%, -50%);
+    top: 1%;
+    left: 65%;
+    transform: translate(-50%, -50%) scale(1);
     color: black;
     font-family: Roboto;
     font-size: 50px;
@@ -70,7 +71,9 @@ body {
     border-radius: 25px;
     outline: 3px solid black;
     box-shadow: 10px 10px 0px rgba(0, 0, 0, 1);
-    transition: transform 0.2s ease;
+    transition: transform 0.3s ease;
+    transform: translateZ(0);
+    
 }
 
 .overlay-text3:hover {
@@ -80,4 +83,34 @@ body {
 .Insta {
     color: black;
     margin: 0px;
+}
+
+.image-container1 {
+    position: absolute;
+    top: 25%;
+    left: 16%;
+    transform: translate(-50%, -50%) scale(0.7);
+    padding: 10px;
+    border-radius: 30px;
+    outline: 10px solid black;
+}
+
+.image-container2 {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.7);
+    padding: 10px;
+    border-radius: 30px;
+    outline: 10px solid black;
+}
+
+.image-container3 {
+    position: absolute;
+    top: 25%;
+    left: 84%;
+    transform: translate(-50%, -50%) scale(0.7);
+    padding: 10px;
+    border-radius: 30px;
+    outline: 10px solid black;
 }
