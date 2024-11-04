@@ -1,0 +1,64 @@
+body {
+    background-color: #454545;
+}
+
+.background {
+    width: 98vw;
+    height: 99vh;
+    margin: 0px;
+}
+
+.overlay-text1 {
+    position: absolute;
+    top: 3%;
+    left: 30%;
+    transform: translate(-50%, -50%) scale(1);
+    color: white;
+    font-family: Roboto;
+    font-size: 60px;
+    padding: 5px;
+    border-radius: 8px;
+    margin: 0px;
+}
+
+.sing-in-up {
+    display: flex;
+}
+
+.sign-up {
+    position: absolute;
+    top: 3%;
+    left: 84%;
+    transform: translate(-50%, -50%) scale(1);
+    color:black;
+    font-family: Roboto;
+    font-size: 45px;
+    background-color: white;
+    padding: 5px;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+    transform: translateZ(0);
+}
+
+.sign-up:hover {
+    transform: scale(1.2);
+}
+
+.sign-in {
+    position: absolute;
+    top: 3%;
+    left: 92%;
+    transform: translate(-50%, -50%) scale(1);
+    color:black;
+    font-family: Roboto;
+    font-size: 40px;
+    background-color: #454545;
+    padding: 5px;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+    transform: translateZ(0);
+}
+
+.sign-in:hover {
+    transform: scale(1.2);
+}
