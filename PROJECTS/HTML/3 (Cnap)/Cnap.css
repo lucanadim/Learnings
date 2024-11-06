@@ -71,3 +71,52 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+.username {
+    position: absolute;
+    top: 28%;
+    left: 47%;
+    transform: translate(-50%, -50%) scale(3);
+}
+
+.e-mail {
+    position: absolute;
+    top: 49%;
+    left: 47%;
+    transform: translate(-50%, -50%) scale(3);
+}
+
+.password {
+    position: absolute;
+    top: 70%;
+    left: 47%;
+    transform: translate(-50%, -50%) scale(3);
+}
+
+.submit {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(3);
+}
+
+.checkbox-1 {
+    position: absolute;
+    top: 28%;
+    left: 60%;
+    transform: translate(-50%, -50%) scale(3);
+}
+
+.checkbox-2 {
+    position: absolute;
+    top: 49%;
+    left: 60%;
+    transform: translate(-50%, -50%) scale(3);
+}
+
+.checkbox-3 {
+    position: absolute;
+    top: 70%;
+    left: 60%;
+    transform: translate(-50%, -50%) scale(3);
+}
