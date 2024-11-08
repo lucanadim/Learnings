@@ -42,10 +42,12 @@ h1 {
     display: grid;
     height: 275px;
     background-color: coral;
-    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-    grid-template-rows: 1fr 1fr;
+    grid-template-columns: repeat(3, minmax(50px, 1fr));
+    grid-template-rows: 1fr 2fr;
     grid-template-areas: 
         "header header header"
-        "none none none"
-        "footer . last";
+        ". . ."
+        "footer footer last";
+    row-gap: 10px;
+    column-gap: 10px;
 }

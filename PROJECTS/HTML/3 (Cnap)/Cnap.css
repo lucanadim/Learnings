@@ -15,7 +15,7 @@ body {
     transform: translate(-50%, -50%) scale(1);
     color: white;
     font-family: Roboto;
-    font-size: 60px;
+    font-size: 2.5vw;
     padding: 5px;
     border-radius: 8px;
     margin: 0px;
@@ -28,11 +28,11 @@ body {
 .sign-up {
     position: absolute;
     top: 3%;
-    left: 84%;
+    left: 83%;
     transform: translate(-50%, -50%) scale(1);
     color:black;
     font-family: Roboto;
-    font-size: 45px;
+    font-size: 1.8vw;
     background-color: white;
     padding: 5px;
     border-radius: 8px;
@@ -41,17 +41,17 @@ body {
 }
 
 .sign-up:hover {
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 
 .sign-in {
     position: absolute;
     top: 3%;
-    left: 92%;
+    left: 91%;
     transform: translate(-50%, -50%) scale(1);
     color:black;
     font-family: Roboto;
-    font-size: 40px;
+    font-size: 1.8vw;
     background-color: #454545;
     padding: 5px;
     border-radius: 8px;
@@ -60,7 +60,7 @@ body {
 }
 
 .sign-in:hover {
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 
 /* ---------------------------------------------------------------------- */
