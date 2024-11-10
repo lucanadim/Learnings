@@ -1,3 +1,5 @@
+/* ----------------------------Home--------------------------------- */
+
 body {
     background-color: #454545;
 }
@@ -10,7 +12,7 @@ body {
 
 .overlay-text1 {
     position: absolute;
-    top: 3%;
+    top: 3.5%;
     left: 30%;
     transform: translate(-50%, -50%) scale(1);
     color: white;
@@ -28,7 +30,7 @@ body {
 .sign-up {
     position: absolute;
     top: 3%;
-    left: 83%;
+    left: 82%;
     transform: translate(-50%, -50%) scale(1);
     color:black;
     font-family: Roboto;
@@ -42,13 +44,13 @@ body {
 }
 
 .sign-up:hover {
-    transform: scale(1.1);
+    transform: scale(1.2);
 }
 
 .sign-in {
     position: absolute;
     top: 3%;
-    left: 91%;
+    left: 90%;
     transform: translate(-50%, -50%) scale(1);
     color:black;
     font-family: Roboto;
@@ -65,7 +67,31 @@ body {
     transform: scale(1.1);
 }
 
-/* ---------------------------------------------------------------------- */
+.home-icon {
+     position: absolute;
+     top: 15%;
+     left: 6%;
+     transform: translate(-50%, -50%) scale(2);
+}
+
+.home {
+    position: absolute;
+    top: 15%;
+    left: 9%;
+    transform: translate(-50%, -50%) scale(1);
+    color: white;
+    font-family: Roboto;
+    font-size: 2vw;
+    background-color: #333333;
+    padding: 5px 20px 5px 100px;
+    margin: 0px;
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+
+
+/* ----------------------------Sign-up/in--------------------------------- */
 
 .background-2 {
     position: absolute;
@@ -74,17 +100,44 @@ body {
     transform: translate(-50%, -50%);
 }
 
+.X {
+    position: absolute;
+    top: 18%;
+    left: 62%;
+    transform: translate(-50%, -50%) scale(1);
+    transition: transform 0.3s ease;
+    transform: translateZ(0);
+}
+
+.X:hover {
+    transform: scale(1.1);
+}
+
 .username {
     position: absolute;
-    top: 28%;
+    top: 41%;
     left: 47%;
+    transform: translate(-50%, -50%) scale(3);
+}
+
+.checkbox-1 {
+    position: absolute;
+    top: 41%;
+    left: 60%;
     transform: translate(-50%, -50%) scale(3);
 }
 
 .e-mail {
     position: absolute;
-    top: 49%;
+    top: 55%;
     left: 47%;
+    transform: translate(-50%, -50%) scale(3);
+}
+
+.checkbox-2 {
+    position: absolute;
+    top: 55%;
+    left: 60%;
     transform: translate(-50%, -50%) scale(3);
 }
 
@@ -95,6 +148,13 @@ body {
     transform: translate(-50%, -50%) scale(3);
 }
 
+.checkbox-3 {
+    position: absolute;
+    top: 70%;
+    left: 60%;
+    transform: translate(-50%, -50%) scale(3);
+}
+
 .submit {
     position: absolute;
     top: 80%;
@@ -102,23 +162,93 @@ body {
     transform: translate(-50%, -50%) scale(3);
 }
 
-.checkbox-1 {
+.user {
     position: absolute;
     top: 28%;
+    left: 36%;
+    transform: translate(-50%, -50%) scale(1);
+    color:black;
+    font-family: Roboto;
+    font-size: 1.8vw;
+    font-weight: 500;
+    background-color: white;
+    padding: 7px 25px;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+    transform: translateZ(0);
+    text-decoration: none;
+}
+
+.user:hover {
+    transform: scale(1.1);
+}
+
+.developer {
+    position: absolute;
+    top: 28%;
+    left: 43.5%;
+    transform: translate(-50%, -50%) scale(1);
+    color:black;
+    font-family: Roboto;
+    font-size: 1.8vw;
+    font-weight: 500;
+    background-color: white;
+    padding: 7px 25px;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+    transform: translateZ(0);
+    text-decoration: none;
+}
+
+.developer:hover {
+    transform: scale(1.1);
+}
+
+.provider {
+    position: absolute;
+    top: 28%;
+    left: 55%;
+    transform: translate(-50%, -50%) scale(1);
+    color:black;
+    font-family: Roboto;
+    font-size: 1.8vw;
+    font-weight: 500;
+    background-color: white;
+    padding: 7px 25px;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+    transform: translateZ(0);
+    text-decoration: none;
+}
+
+.provider:hover {
+    transform: scale(1.1);
+}
+
+.e-mail-2 {
+    position: absolute;
+    top: 45%;
+    left: 47%;
+    transform: translate(-50%, -50%) scale(3);
+}
+
+.checkbox-2-2 {
+    position: absolute;
+    top: 45%;
     left: 60%;
     transform: translate(-50%, -50%) scale(3);
 }
 
-.checkbox-2 {
+.password-2 {
     position: absolute;
-    top: 49%;
-    left: 60%;
+    top: 63%;
+    left: 47%;
     transform: translate(-50%, -50%) scale(3);
 }
 
-.checkbox-3 {
+.checkbox-3-2 {
     position: absolute;
-    top: 70%;
+    top: 63%;
     left: 60%;
     transform: translate(-50%, -50%) scale(3);
 }
