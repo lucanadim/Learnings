@@ -67,30 +67,71 @@ body {
     transform: scale(1.1);
 }
 
-.home-icon {
-     position: absolute;
-     top: 15%;
-     left: 6%;
-     transform: translate(-50%, -50%) scale(2);
-}
-
 .home {
     position: absolute;
     top: 15%;
-    left: 9%;
+    left: 9.5%;
     transform: translate(-50%, -50%) scale(1);
     color: white;
     font-family: Roboto;
     font-size: 2vw;
-    background-color: #333333;
-    padding: 5px 20px 5px 100px;
+    background-color: #454545;
+    padding: 5px 20px 5px 70px;
     margin: 0px;
     border-radius: 8px;
     text-decoration: none;
 }
 
+.home-icon {
+    position: absolute;
+    top: 15%;
+    left: 6.5%;
+    transform: translate(-50%, -50%) scale(2);
+}
 
+.browse {
+    position: absolute;
+    top: 24%;
+    left: 9.5%;
+    transform: translate(-50%, -50%) scale(1);
+    color: white;
+    font-family: Roboto;
+    font-size: 2vw;
+    background-color: #333333;
+    padding: 5px 20px 5px 70px;
+    margin: 0px;
+    border-radius: 8px;
+    text-decoration: none;
+}
 
+.browse-icon {
+    position: absolute;
+    top: 24%;
+    left: 5.8%;
+    transform: translate(-50%, -50%) scale(2);
+}
+
+.downloadet {
+    position: absolute;
+    top: 33%;
+    left: 9.5%;
+    transform: translate(-50%, -50%) scale(1);
+    color: white;
+    font-family: Roboto;
+    font-size: 2vw;
+    background-color: #333333;
+    padding: 5px 20px 5px 70px;
+    margin: 0px;
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+.downloadet-icon {
+    position: absolute;
+    top: 33%;
+    left: 3.8%;
+    transform: translate(-50%, -50%) scale(2);
+}
 /* ----------------------------Sign-up/in--------------------------------- */
 
 .background-2 {
