@@ -211,6 +211,18 @@ body {
     text-decoration: none;
 }
 
+.browse-2 {
+    position: absolute;
+    top: 17%;
+    left: 28%;
+    transform: translate(-50%, -50%) scale(1);
+    color: white;
+    font-family: Roboto;
+    font-size: 5vw;
+    margin: 0px;
+    text-decoration: none;
+}
+
 .profile-icon-2 {
     position: absolute;
     top: 5%;
@@ -377,4 +389,33 @@ body {
     top: 63%;
     left: 60%;
     transform: translate(-50%, -50%) scale(3);
+}
+
+/* ----------------------------Browse--------------------------------- */
+
+.search {
+    position: absolute;
+    top: 25%;
+    left: 47%;
+    transform: translate(-50%, -50%) scale(3);
+    width: 450px;
+}
+
+.browse-button {
+    position: absolute;
+    top: 25%;
+    left: 79%;
+    transform: translate(-50%, -50%) scale(3);
+}
+
+.popular {
+    position: absolute;
+    top: 35%;
+    left: 25%;
+    transform: translate(-50%, -50%) scale(1);
+    color: white;
+    font-family: Roboto;
+    font-size: 3vw;
+    margin: 0px;
+    text-decoration: none;
 }
