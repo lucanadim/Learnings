@@ -1,5 +1,3 @@
-/* ----------------------------Home--------------------------------- */
-
 body {
     background-color: #454545;
 }
@@ -69,16 +67,19 @@ body {
 
 .home {
     position: absolute;
-    top: 15%;
-    left: 9.5%;
+    top: 12.5%;
+    left: 5%;
     transform: translate(-50%, -50%) scale(1);
     color: white;
     font-family: Roboto;
     font-size: 2vw;
-    background-color: #454545;
+    background-color: #333333;
     padding: 5px 20px 5px 70px;
     margin: 0px;
     border-radius: 8px;
+    text-decoration: none;
+    transition: transform 0.3s ease;
+    transform: translateZ(0);
     text-decoration: none;
 }
 
@@ -91,16 +92,19 @@ body {
 
 .browse {
     position: absolute;
-    top: 24%;
-    left: 9.5%;
+    top: 21.5%;
+    left: 4.3%;
     transform: translate(-50%, -50%) scale(1);
     color: white;
     font-family: Roboto;
     font-size: 2vw;
-    background-color: #333333;
+    background-color: #454545;
     padding: 5px 20px 5px 70px;
     margin: 0px;
     border-radius: 8px;
+    text-decoration: none;
+    transition: transform 0.3s ease;
+    transform: translateZ(0);
     text-decoration: none;
 }
 
@@ -111,10 +115,10 @@ body {
     transform: translate(-50%, -50%) scale(2);
 }
 
-.downloadet {
+.downloads {
     position: absolute;
-    top: 33%;
-    left: 9.5%;
+    top: 30.5%;
+    left: 2.3%;
     transform: translate(-50%, -50%) scale(1);
     color: white;
     font-family: Roboto;
@@ -123,6 +127,9 @@ body {
     padding: 5px 20px 5px 70px;
     margin: 0px;
     border-radius: 8px;
+    text-decoration: none;
+    transition: transform 0.3s ease;
+    transform: translateZ(0);
     text-decoration: none;
 }
 
@@ -135,8 +142,8 @@ body {
 
 .projects {
     position: absolute;
-    top: 42%;
-    left: 9.5%;
+    top: 39.5%;
+    left: 4%;
     transform: translate(-50%, -50%) scale(1);
     color: white;
     font-family: Roboto;
@@ -145,6 +152,9 @@ body {
     padding: 5px 20px 5px 70px;
     margin: 0px;
     border-radius: 8px;
+    text-decoration: none;
+    transition: transform 0.3s ease;
+    transform: translateZ(0);
     text-decoration: none;
 }
 
@@ -157,8 +167,8 @@ body {
 
 .settings {
     position: absolute;
-    top: 92%;
-    left: 9.5%;
+    top: 89.5%;
+    left: 4%;
     transform: translate(-50%, -50%) scale(1);
     color: white;
     font-family: Roboto;
@@ -167,6 +177,9 @@ body {
     padding: 5px 20px 5px 70px;
     margin: 0px;
     border-radius: 8px;
+    text-decoration: none;
+    transition: transform 0.3s ease;
+    transform: translateZ(0);
     text-decoration: none;
 }
 
@@ -179,8 +192,8 @@ body {
 
 .profile {
     position: absolute;
-    top: 85%;
-    left: 9.5%;
+    top: 82.5%;
+    left: 4.5%;
     transform: translate(-50%, -50%) scale(1);
     color: white;
     font-family: Roboto;
@@ -189,6 +202,9 @@ body {
     padding: 5px 20px 5px 80px;
     margin: 0px;
     border-radius: 8px;
+    text-decoration: none;
+    transition: transform 0.3s ease;
+    transform: translateZ(0);
     text-decoration: none;
 }
 
@@ -229,164 +245,60 @@ body {
     left: 59%;
     transform: translate(-50%, -50%) scale(2);
 }
-/* ----------------------------Sign-up/in--------------------------------- */
 
-.background-2 {
+.search {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    top: 25%;
+    left: 47%;
+    transform: translate(-50%, -50%) scale(3);
+    width: 450px;
 }
 
-.X {
+.browse-button {
     position: absolute;
-    top: 18%;
-    left: 62%;
+    top: 25%;
+    left: 79%;
+    transform: translate(-50%, -50%) scale(3);
+}
+
+.popular {
+    position: absolute;
+    top: 35%;
+    left: 25%;
     transform: translate(-50%, -50%) scale(1);
-    transition: transform 0.3s ease;
-    transform: translateZ(0);
-}
-
-.X:hover {
-    transform: scale(1.1);
-}
-
-.username {
-    position: absolute;
-    top: 41%;
-    left: 47%;
-    transform: translate(-50%, -50%) scale(3);
-}
-
-.checkbox-1 {
-    position: absolute;
-    top: 41%;
-    left: 60%;
-    transform: translate(-50%, -50%) scale(3);
-}
-
-.e-mail {
-    position: absolute;
-    top: 55%;
-    left: 47%;
-    transform: translate(-50%, -50%) scale(3);
-}
-
-.checkbox-2 {
-    position: absolute;
-    top: 55%;
-    left: 60%;
-    transform: translate(-50%, -50%) scale(3);
-}
-
-.password {
-    position: absolute;
-    top: 70%;
-    left: 47%;
-    transform: translate(-50%, -50%) scale(3);
-}
-
-.checkbox-3 {
-    position: absolute;
-    top: 70%;
-    left: 60%;
-    transform: translate(-50%, -50%) scale(3);
-}
-
-.submit {
-    position: absolute;
-    top: 80%;
-    left: 50%;
-    transform: translate(-50%, -50%) scale(3);
-}
-
-.user {
-    position: absolute;
-    top: 28%;
-    left: 36%;
-    transform: translate(-50%, -50%) scale(1);
-    color:black;
+    color: white;
     font-family: Roboto;
-    font-size: 1.8vw;
-    font-weight: 500;
-    background-color: white;
-    padding: 7px 25px;
-    border-radius: 8px;
-    transition: transform 0.3s ease;
-    transform: translateZ(0);
+    font-size: 3vw;
+    margin: 0px;
     text-decoration: none;
 }
 
-.user:hover {
-    transform: scale(1.1);
-}
-
-.developer {
+.home-3 {
     position: absolute;
-    top: 28%;
-    left: 43.5%;
+    top: 15%;
+    left: 9.5%;
     transform: translate(-50%, -50%) scale(1);
-    color:black;
+    color: white;
     font-family: Roboto;
-    font-size: 1.8vw;
-    font-weight: 500;
-    background-color: white;
-    padding: 7px 25px;
+    font-size: 2vw;
+    background-color: #333333;
+    padding: 5px 20px 5px 70px;
+    margin: 0px;
     border-radius: 8px;
-    transition: transform 0.3s ease;
-    transform: translateZ(0);
     text-decoration: none;
 }
 
-.developer:hover {
-    transform: scale(1.1);
-}
-
-.provider {
+.browse-3 {
     position: absolute;
-    top: 28%;
-    left: 55%;
+    top: 24%;
+    left: 9.5%;
     transform: translate(-50%, -50%) scale(1);
-    color:black;
+    color: white;
     font-family: Roboto;
-    font-size: 1.8vw;
-    font-weight: 500;
-    background-color: white;
-    padding: 7px 25px;
+    font-size: 2vw;
+    background-color: #454545;
+    padding: 5px 20px 5px 70px;
+    margin: 0px;
     border-radius: 8px;
-    transition: transform 0.3s ease;
-    transform: translateZ(0);
     text-decoration: none;
-}
-
-.provider:hover {
-    transform: scale(1.1);
-}
-
-.e-mail-2 {
-    position: absolute;
-    top: 45%;
-    left: 47%;
-    transform: translate(-50%, -50%) scale(3);
-}
-
-.checkbox-2-2 {
-    position: absolute;
-    top: 45%;
-    left: 60%;
-    transform: translate(-50%, -50%) scale(3);
-}
-
-.password-2 {
-    position: absolute;
-    top: 63%;
-    left: 47%;
-    transform: translate(-50%, -50%) scale(3);
-}
-
-.checkbox-3-2 {
-    position: absolute;
-    top: 63%;
-    left: 60%;
-    transform: translate(-50%, -50%) scale(3);
 }
