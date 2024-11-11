@@ -132,6 +132,91 @@ body {
     left: 3.8%;
     transform: translate(-50%, -50%) scale(2);
 }
+
+.projects {
+    position: absolute;
+    top: 42%;
+    left: 9.5%;
+    transform: translate(-50%, -50%) scale(1);
+    color: white;
+    font-family: Roboto;
+    font-size: 2vw;
+    background-color: #333333;
+    padding: 5px 20px 5px 70px;
+    margin: 0px;
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+.projects-icon {
+    position: absolute;
+    top: 42%;
+    left: 5.5%;
+    transform: translate(-50%, -50%) scale(2);
+}
+
+.settings {
+    position: absolute;
+    top: 92%;
+    left: 9.5%;
+    transform: translate(-50%, -50%) scale(1);
+    color: white;
+    font-family: Roboto;
+    font-size: 2vw;
+    background-color: #333333;
+    padding: 5px 20px 5px 70px;
+    margin: 0px;
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+.settings-icon {
+    position: absolute;
+    top: 92%;
+    left: 5.5%;
+    transform: translate(-50%, -50%) scale(2);
+}
+
+.profile {
+    position: absolute;
+    top: 85%;
+    left: 9.5%;
+    transform: translate(-50%, -50%) scale(1);
+    color: white;
+    font-family: Roboto;
+    font-size: 2vw;
+    background-color: #333333;
+    padding: 5px 20px 5px 80px;
+    margin: 0px;
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+.profile-icon {
+    position: absolute;
+    top: 85%;
+    left: 6%;
+    transform: translate(-50%, -50%) scale(1.9);
+}
+
+.home-2 {
+    position: absolute;
+    top: 17%;
+    left: 27%;
+    transform: translate(-50%, -50%) scale(1);
+    color: white;
+    font-family: Roboto;
+    font-size: 5vw;
+    margin: 0px;
+    text-decoration: none;
+}
+
+.profile-icon-2 {
+    position: absolute;
+    top: 5%;
+    left: 59%;
+    transform: translate(-50%, -50%) scale(2);
+}
 /* ----------------------------Sign-up/in--------------------------------- */
 
 .background-2 {
