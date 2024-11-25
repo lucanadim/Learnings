@@ -1,0 +1,1 @@
+I started using cursor.ai and started learning tailwind css
